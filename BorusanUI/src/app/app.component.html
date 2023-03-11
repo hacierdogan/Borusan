@@ -1,0 +1,79 @@
+<div class="content" role="main">
+
+  <h2> {{title}} Application</h2>
+  
+  <div class="row">
+    <div class="col-sm-6"><h6>Sipariş Listesi</h6></div>
+    <div class="col-sm-6 text-right"><button type="button" class="btn btn-success mb10" data-toggle="modal" data-target="#myModal">Güncelle</button>
+    </div>
+    <div class="col-sm-12">
+      <!--Order Table-->
+      <table class="table table-bordered">
+        <thead>
+            <tr>
+              <td>Seçiniz</td>
+              <td>Müşteri Sipariş No</td>
+              <td>Çıkış Adresi</td>
+              <td>Varış Adresi</td>
+              <td>Miktar</td>
+              <td>miktar Birim</td>
+              <td>Ağırlık</td>
+              <td>Ağırlık Birim</td>
+              <td>Malzeme Kodu</td>
+              <td>Not</td>
+              <td>Statü</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let item of orderList">
+              <td><input type="checkbox" [value]="false" (change)="onCheckboxChange($event,'item.orderNo')"></td>
+              <td>{{item.orderNo}}</td>
+              <td>{{item.outputAddress}}</td>
+              <td>{{item.arrivalAddress}}</td>
+              <td>{{item.quantity}}</td>
+              <td>{{item.quantityUnit}}</td>
+              <td>{{item.weight}}</td>
+              <td>{{item.weightUnit}}</td>
+              <td>{{item.materialCode}}</td>
+              <td>{{item.note}}</td>
+              <td>{{item.statusStr}}</td>
+            </tr>
+        </tbody>
+      </table>
+      <!--End Order Table-->
+    </div>
+  </div>
+  <!--Status Update Modal-->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Sipariş Düzenle</h4>
+        </div>
+        <div class="modal-body">
+          <form>
+          <div class="form-group row">
+            <label class="col-sm-4 form-label">Sipariş Durumu</label>
+            <div class="col-sm-8">
+                <select class="form-control" statuInput #statu>
+                  <option *ngFor="let statuItem of statuList" [value]="statuItem.id">{{statuItem.statusStr}}</option>
+                </select>
+            </div>
+          </div>
+        </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary" (click)="editOrder(statu.value)">Güncelle</button>
+        </div>
+      </div>
+    </div>
+  </div><!--End Status Update Modal-->
+
+  <footer>
+  </footer>
+
+</div>
+
+<router-outlet></router-outlet>

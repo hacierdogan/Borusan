@@ -1,0 +1,17 @@
+C:\Users\Haci\Desktop\BorusanAPI\BorusanAPI\Business\bin\Debug\net5.0\Business.deps.json
+C:\Users\Haci\Desktop\BorusanAPI\BorusanAPI\Business\bin\Debug\net5.0\Business.dll
+C:\Users\Haci\Desktop\BorusanAPI\BorusanAPI\Business\bin\Debug\net5.0\ref\Business.dll
+C:\Users\Haci\Desktop\BorusanAPI\BorusanAPI\Business\bin\Debug\net5.0\Business.pdb
+C:\Users\Haci\Desktop\BorusanAPI\BorusanAPI\Business\bin\Debug\net5.0\DataAccess.dll
+C:\Users\Haci\Desktop\BorusanAPI\BorusanAPI\Business\bin\Debug\net5.0\DataEntities.dll
+C:\Users\Haci\Desktop\BorusanAPI\BorusanAPI\Business\bin\Debug\net5.0\DataAccess.pdb
+C:\Users\Haci\Desktop\BorusanAPI\BorusanAPI\Business\bin\Debug\net5.0\DataEntities.pdb
+C:\Users\Haci\Desktop\BorusanAPI\BorusanAPI\Business\obj\Debug\net5.0\Business.csproj.AssemblyReference.cache
+C:\Users\Haci\Desktop\BorusanAPI\BorusanAPI\Business\obj\Debug\net5.0\Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Haci\Desktop\BorusanAPI\BorusanAPI\Business\obj\Debug\net5.0\Business.AssemblyInfoInputs.cache
+C:\Users\Haci\Desktop\BorusanAPI\BorusanAPI\Business\obj\Debug\net5.0\Business.AssemblyInfo.cs
+C:\Users\Haci\Desktop\BorusanAPI\BorusanAPI\Business\obj\Debug\net5.0\Business.csproj.CoreCompileInputs.cache
+C:\Users\Haci\Desktop\BorusanAPI\BorusanAPI\Business\obj\Debug\net5.0\Business.csproj.CopyComplete
+C:\Users\Haci\Desktop\BorusanAPI\BorusanAPI\Business\obj\Debug\net5.0\Business.dll
+C:\Users\Haci\Desktop\BorusanAPI\BorusanAPI\Business\obj\Debug\net5.0\ref\Business.dll
+C:\Users\Haci\Desktop\BorusanAPI\BorusanAPI\Business\obj\Debug\net5.0\Business.pdb
